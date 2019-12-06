@@ -1,0 +1,132 @@
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+	font-family: Roboto, Arial;
+	font-size: 1.6rem;
+	line-height: 140%;
+	color:#707070;
+	/*font-weight: 300;*/
+	
+}
+
+footer{
+	margin:20px;
+}
+h1, h2, h3{
+	margin: 20px;
+	font-family: Courier, sans-serif;
+	color: #707070;
+	text-transform: uppercase;
+}
+
+.hd_h1{
+	display:inline;
+}
+
+.hd_h3{
+	display:inline;
+}
+.
+.hd_btn {
+	display:inline;
+}
+
+a{color:darkred;}
+
+a:hover{
+    color: pink;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	text-aline:center;
+    text-decoration: none;
+    width:300px;
+    color: #707070;
+    background: silver;
+    margin: 10px;
+    padding: 5px;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex-container > div {
+  width: 50%;
+  margin: 10px;
+}
+header{
+	margin:20px 0;
+}
+
+nav{
+	margin:10px 0;
+	background:dimgray;
+}
+
+.nav_ul, ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ }
+
+
+nav ul li{
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+form{margin:30px;}
+
+tr{
+	line-height:50px;
+	margin-right:10px;
+	width:100px;
+	}
+
+td{margin-right:10px;}
+
+
+
+input{
+	margin:5px 0;
+
+}
+
+input, label {
+    display:block;
+}
+
+
+.inputBox {
+	width: 80%;
+	/*max-width: 1200px;*/
+	margin: 0 auto;
+	padding:20px;
+}
+
+
